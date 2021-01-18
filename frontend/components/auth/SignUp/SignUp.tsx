@@ -309,9 +309,9 @@ export default (form: AuthInterface.ISignUpProps) => {
         </div>
 
         <div className="button-sign">
-          <Button className="btn-default" onClick={form.handleSubmit}>
+          {/* <Button className="btn-default" onClick={form.handleSubmit}>
             Sign Up<i className="mdi mdi-chevron-right"></i>
-          </Button>
+          </Button> */}
         </div>
         <div className="login">
           {/* <span className="text">
