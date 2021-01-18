@@ -90,7 +90,6 @@ const PreviewStory = () => {
           </Preview>
           <PrevButton>
             <i className="mdi mdi-chevron-left" />
-            
           </PrevButton>
           <NextButton>
             <i className="mdi mdi-chevron-right" />
