@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@Components/*": ["components/*"],
+      "@Components": ["components"],
+      "@Hooks/*": ["hooks/*"],
+      "@Helpers/*": ["helpers/*"],
+      "@Services/*": ["services/*"],
+      "@Services/": ["services/"],
+      "@Pages/*": ["pages/*"],
+      "@Server/*": ["server-core-modules/*"],
+      "@Static/*": ["public/static/*"],
+      "@Lib/*": ["lib/*"],
+      "@Constants/*": ["constants/*"],
+      "@Constans": ["constants"],
+      "@Containers/*": ["containers/*"],
+      "@Containers": ["containers"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/shareable/Animatecomponent/Animate.js",
+    "server-core-modules/workbox-sw.js",
+    "components/shareable/reChaptcha.js",
+    "components/shareable/Editor/EditorView.js",
+    "components/shareable/Editor/testEditor/index.js",
+    "components/shareable/Editor/locate_hashtag_in_text.js",
+    "components/shareable/Editor/decorate_component_with_props.js",
+    "components/shareable/Editor/getAutocompleteSuggestions.js",
+    "components/shareable/Editor/decode_offset_key.js",
+    "components/shareable/Editor/insert_hashtag.js"
+  ]
+}

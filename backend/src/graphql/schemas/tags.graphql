@@ -1,0 +1,28 @@
+# The query type, represents all of the entry points into our object graph
+type Query {
+    
+     tagsFilter(tagSearch:TagSearchInput)
+     getPopularTags(tagSearch:TagSearchInput)
+     tags: [Tags!]!
+   }
+
+ input TagInput {
+    imgPath: String,
+    title: String!
+  }
+  input TagSearchInput {
+      count: Int,
+      skip: Int,
+      title: String,
+      entityFilterType: Int
+  }
+   type Tags {
+    title: String!,
+    imgPath: String,
+    createdAt: Date,
+    updatedAt: Date,
+   }
+
+   type Mutation {
+       addTag(tag:TagInput)
+   }
