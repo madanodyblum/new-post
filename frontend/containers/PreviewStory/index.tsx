@@ -54,9 +54,11 @@ const PreviewStory = () => {
             </MenuButton>
           </StoryMenu>
         </Header>
+
         <div style={{ padding: "10px 0" }}>
           <SeekBar percent={48} />
         </div>
+        
         <StoryBody>
           <CloseButton>
             <i className="mdi mdi-close" />
