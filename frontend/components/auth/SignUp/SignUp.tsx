@@ -314,12 +314,12 @@ export default (form: AuthInterface.ISignUpProps) => {
           </Button>
         </div>
         <div className="login">
-          {/* <span className="text">
+          <span className="text">
             Don't have an account?{" "}
             <Link shallow href="/auth/login">
               <a>Sign In</a>
             </Link>
-          </span> */}
+          </span>
         </div>
       </div>
     </SignForm>
