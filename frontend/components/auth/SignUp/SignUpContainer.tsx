@@ -43,6 +43,6 @@ export default () => {
     }
   };
   return (
-    // <SignUp {...form} handleChange={handleChange} handleSubmit={handleSubmit} />
+    <SignUp {...form} handleChange={handleChange} handleSubmit={handleSubmit} />
   );
 };
