@@ -34,7 +34,7 @@ export default () => {
       gender: form.gender == "Male" ? 1 : 0,
     });
     if (status === 1) {
-      // toast.success("You are successfully logged in.");
+      toast.success("You are successfully logged in.");
     } else {
       toast.error(`
       There is an error on login process:
