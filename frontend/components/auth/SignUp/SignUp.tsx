@@ -295,12 +295,12 @@ export default (form: AuthInterface.ISignUpProps) => {
           }}
         >
           <label className="checkbox-label">
-            <input
+            {/* <input
               type="checkbox"
               name="isAcceptILegal"
               onChange={form.handleChange}
               checked={form.isAcceptILegal}
-            />
+            /> */}
             <span className="checkmark"></span>
           </label>
           <span className="term">
