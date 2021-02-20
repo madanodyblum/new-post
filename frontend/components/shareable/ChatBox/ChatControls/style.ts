@@ -9,13 +9,13 @@ export const Root = styled.div`
 
 export const AttachButton = styled.button`
   background-color: transparent;
-  // color: #2680eb;
-  // border: none;
-  // border-radius: 50%;
-  // width: 32px;
-  // height: 32px;
-  // padding: 0;
-  // cursor: pointer;
+  color: #2680eb;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  cursor: pointer;
 
   .mdi {
     font-size: 22px;
