@@ -33,7 +33,7 @@ export const InputContainer = styled.div`
     padding: 10px 15px;
     font-size: 14px;
     font-weight: 400;
-    height: 36px;
+    // height: 36px;
   }
 `;
 
