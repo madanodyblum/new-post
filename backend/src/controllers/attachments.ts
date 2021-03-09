@@ -16,7 +16,7 @@ const uploadFile = async (req, res) => {
     },
 
     limits1: {
-      files: 5,
+      files: 7,
       fileSize: 100 * 1024 * 1024, // 100mb limit
     },
   });
